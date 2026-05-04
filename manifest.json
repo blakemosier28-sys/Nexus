@@ -1,0 +1,17 @@
+{
+  "name": "NEXUS",
+  "short_name": "NEXUS",
+  "description": "Blake's personal AI research system",
+  "start_url": "/nexus/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#00ffcc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
