@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "NEXUS",
+  "version": "1.0",
+  "description": "Blake's personal AI research system",
+  "action": {
+    "default_popup": "sidebar.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
