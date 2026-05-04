@@ -1,14 +1,17 @@
 {
-  "manifest_version": 3,
   "name": "NEXUS",
-  "version": "1.0",
+  "short_name": "NEXUS",
   "description": "Blake's personal AI research system",
-  "action": {
-    "default_popup": "sidebar.html",
-    "default_icon": "icon.png"
-  },
-  "permissions": [
-    "activeTab",
-    "storage"
+  "start_url": "/nexus/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#00ffcc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
   ]
 }
